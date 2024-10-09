@@ -1,12 +1,17 @@
-h1 {
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
     text-align: center;
+    padding: 10px;
+    z-index: 1000;
 }
 
-h2 {
-    text-align: center;
-}
-
-p {
+.content {
+    margin-top: 120px;
+    padding: 20px;
     text-align: center;
 }
 
