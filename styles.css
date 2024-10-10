@@ -10,30 +10,29 @@
 }
 
 .content {
-    margin-top: 12em;
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     text-align: center;
+    width: 80%;
 }
 
-a:link {
-  text-decoration: none;
-  color: black;
-}
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
-    font-weight: 250;
+    font-weight: 350;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
-    font-weight: 150;
+    font-weight: 250;
 }
