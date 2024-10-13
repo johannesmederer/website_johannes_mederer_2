@@ -21,10 +21,11 @@ nav {
 nav a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 2px;
     margin: 0 20px;
     text-decoration: none;
     color: black;
-    font-weight: 200;
 }
 
 nav a:hover {
@@ -37,7 +38,7 @@ nav a:hover {
     margin-right: auto;
     padding: 20px;
     text-align: center;
-    width: 80%;
+    width: 75%;
 }
 
 section {
@@ -48,6 +49,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5em;
     font-weight: 250;
+    letter-spacing: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
 
@@ -56,6 +58,7 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5em;
+    letter-spacing: 3px;
     font-weight: 250;
 }
 
@@ -63,6 +66,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     font-weight: 250;
+    letter-spacing: 2px;
     margin-bottom: 40px;
     margin-top: 5px;
 }
@@ -80,6 +84,8 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
     font-weight: 250;
+    line-height: 1.6;
+    letter-spacing: 2px;
 }
 
 /* Smooth scrolling effect */
@@ -93,7 +99,6 @@ iframe {
     width: 100%;
     max-width: 450px;
     height: 450px
-
 }
 
 /* Stellt sicher, dass die Logos untereinander erscheinen */
@@ -132,4 +137,99 @@ iframe {
 /* Stil für den Hover-Effekt */
 .email-link:hover {
     text-decoration: underline;
+}
+
+/* Media Queries für Responsive Design */
+
+/* Für Tablets und kleinere Bildschirme */
+@media (max-width: 850px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+            font-size: 2em;
+        }
+
+    h2::before {
+      display: block;
+      content: " ";
+      margin-top: -200px;
+      height: 200px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    nav a {
+        font-size: 1.5em;
+        margin: 0 10px;
+    }
+
+    .content {
+            width: 80%;
+            padding: 0px;
+            margin-top: 13em;
+        }
+
+    iframe {
+        max-width: 85%;
+        max-width: 450px;
+        height: 450px;
+    }
+}
+
+/* Für Mobilgeräte */
+@media (max-width: 500px) {
+    .fixed-header {
+        padding: 15px 0; /* Noch weniger Padding für Mobilgeräte */
+    }
+
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h2::before {
+      display: block;
+      content: " ";
+      margin-top: -135px;
+      height: 135px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    h3 {
+        font-size: 0.75em;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .content {
+        width: 90%;
+        padding: 0px;
+        margin-top: 8.5em;
+    }
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    iframe {
+            max-width: 90%;
+            max-width: 300px;
+            height: 300px;
+            margin-top: 10px;
+    }
+
 }
