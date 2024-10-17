@@ -125,6 +125,15 @@ iframe {
     -ms-user-select: none; /* Für Internet Explorer/Edge */
 }
 
+.text-link {
+    color: black;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
 /* Stil für die E-Mail-Adresse */
 .email-link {
     font-family: 'Poppins', sans-serif;
@@ -137,6 +146,16 @@ iframe {
 /* Stil für den Hover-Effekt */
 .email-link:hover {
     text-decoration: underline;
+}
+
+.impressum {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5em;
+    font-weight: 250;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
 }
 
 /* Media Queries für Responsive Design */
@@ -172,7 +191,7 @@ iframe {
         }
 
     iframe {
-        max-width: 85%;
+        max-width: 75%;
         max-width: 450px;
         height: 450px;
     }
@@ -226,7 +245,7 @@ iframe {
     }
 
     iframe {
-            max-width: 90%;
+            max-width: 60%;
             max-width: 300px;
             height: 300px;
             margin-top: 10px;
