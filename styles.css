@@ -7,15 +7,13 @@
     text-align: center;
     padding: 25px 0px;
     z-index: 1000;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sanfter Schatten unter dem Header */
-
-    /* Weicher Übergang am unteren Rand des Headers */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to bottom, white 90%, rgba(255, 255, 255, 0));
 }
 
 /* Navigation Styling */
 nav {
-    margin-top: 5px; /* Verringert den Abstand zum h1 */
+    margin-top: 5px;
 }
 
 nav a {
@@ -101,49 +99,42 @@ iframe {
     height: 450px
 }
 
-/* Stellt sicher, dass die Logos untereinander erscheinen */
+
 .logo-container {
     display: block;
-    text-align: center; /* Logos zentrieren */
-    margin-bottom: 20px; /* Platz zwischen den Logos */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .logo-container img {
-    width: 150px; /* Anpassung der Bildgröße */
+    width: 150px;
     height: auto;
 }
 
 .logo-container.extra-margin {
-    margin-top: 40px; /* Mehr Abstand über dem Soundcloud-Logo */
+    margin-top: 40px;
 }
 
-/* Deaktiviert die Textauswahl */
 .no-select {
-    user-select: none; /* Für die meisten Browser */
-    -webkit-user-select: none; /* Für Safari */
-    -moz-user-select: none; /* Für Firefox */
-    -ms-user-select: none; /* Für Internet Explorer/Edge */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .text-link {
     color: black;
-    text-decoration: none;
-}
-
-.text-link:hover {
     text-decoration: underline;
 }
 
-/* Stil für die E-Mail-Adresse */
 .email-link {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     color: black;
     text-decoration: none;
-    margin-top: 20px; /* Abstand nach oben */
+    margin-top: 20px;
 }
 
-/* Stil für den Hover-Effekt */
 .email-link:hover {
     text-decoration: underline;
 }
@@ -158,9 +149,9 @@ iframe {
     text-decoration: none;
 }
 
-/* Media Queries für Responsive Design */
+/* Media Queries for Responsive Design */
 
-/* Für Tablets und kleinere Bildschirme */
+/* For Tablets */
 @media (max-width: 850px) {
     h1 {
         font-size: 3em;
@@ -197,10 +188,10 @@ iframe {
     }
 }
 
-/* Für Mobilgeräte */
+/* For Mobile Devices */
 @media (max-width: 500px) {
     .fixed-header {
-        padding: 15px 0; /* Noch weniger Padding für Mobilgeräte */
+        padding: 15px 0;
     }
 
 
